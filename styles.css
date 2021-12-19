@@ -1,0 +1,361 @@
+.nav-item{
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    float: right;
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-toggler{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: light;
+    font-size: 20px;
+    
+}
+
+ul{
+    padding-right: 45px;
+}
+
+.items{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.items-active{
+    color: rgb(26, 1, 253);
+    text-decoration: none;
+    font-family: cursive;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.navhead
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 37px;
+    text-shadow: 3px 3px 3px #000000;
+    padding-left: 20px;
+    padding-top: 10px;
+    color:white;
+}
+
+
+.text{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size:25px;
+    font-family: cursive;
+    line-height: 35px;
+    color:white;
+}
+
+.name1{
+    text-shadow: 1px 1px 2px black,5px 5px 5px #370bf8;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 40px;
+    padding:0px;
+    font-size:60px ;
+    font-family: cursive;
+    line-height: 50px;
+    color:white;
+}
+
+
+
+.space{
+    margin-bottom: 75px;
+}
+
+
+.con{
+    
+    padding-right:150px;
+    text-align: center;
+    padding-top:55px;
+    margin-bottom: 10px;
+}
+
+.con1{
+    border: 3px solid rgb(28, 3, 253);
+    background-color: #00000071;
+    margin-bottom: 20px;
+    padding: 3rem 1rem;
+    text-align: center;
+    box-shadow: 0 5px 30px #1c3ae4;
+}
+
+.con2{
+    padding-top:20px;
+    text-align: center;
+    padding-bottom:10px;
+}
+
+.con3{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.con4
+{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.container3{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 56.25%;
+    margin-bottom: 1rem;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.box{
+    display: inline-flexbox;
+    border-radius: 30px;
+    width: 310px;
+    height: 500px;
+    background-color: rgb(3, 3, 3);
+    -webkit-animation: box 0.5s ease-in-out infinite alternate;
+    -moz-animation: box 0.5s ease-in-out infinite alternate;
+    animation: box 0.5s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes box {
+    from {
+      box-shadow: 0 0 10px rgb(20, 20, 20), 0 0 20px rgb(54, 66, 228), 0 0 30px #1833c9, 0 0 40px #2401c2, 0 0 50px #0004e6;
+    }
+    to {
+      box-shadow: 0 0 20px rgb(82, 92, 226), 0 0 30px #684dff, 0 0 40px #2872fc, 0 0 50px #4d68ff, 0 0 60px #283dfc;
+    }
+  }
+.button {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 15px 11px;
+    display: inline-block;
+    color: #050505;
+    background-color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    overflow: hidden;
+}
+
+/*creating animation effect*/
+.button:hover {
+    color: #111;
+    background: #1453ff;
+    box-shadow: 0 0 50px #1453ff;
+}
+
+.button1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:10px 16px;
+    display: inline-block;
+    color: #050505;
+    background-color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    overflow: hidden;
+}
+
+/*creating animation effect*/
+.button1:hover {
+    color: #111;
+    background: #1453ff;
+    box-shadow: 0 0 50px #1453ff;
+}
+
+.button2 {
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.glow1{
+      display:flex;
+      justify-content: center;
+      margin-top: 1px;
+}
+
+.glow2{
+    list-style: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.glow3:hover{
+    translate: 5px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #1453ff;
+    box-shadow: 0 0 50px #1453ff;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+   
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 1000px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .images{
+        width: 225px;
+        height: 400px;
+    
+    }
+
+    .box{
+        display: inline-flexbox;
+        margin-left: auto;
+        margin-right: auto;
+        width: 230px;
+        height: 380px;
+        background-color: rgb(8, 8, 8);
+    }
+
+    .text{
+        font-family: cursive;
+        font-size: 25px;
+        color:white;
+        padding-bottom: 15px;
+        align-content: center;
+        padding-top: 0px;
+        line-height:40px;
+    }
+
+    .con{
+        padding-right:0px;
+        text-align: center;
+        padding-top:0px;
+        margin-bottom: 0px;
+    }
+
+    .button {
+        margin-top: 0px;
+        visibility: hidden;
+        padding:0px;
+    }
+
+    .button2 {
+        margin-top: 10px;
+        padding: 15px 15px;
+        display: inline-block;
+        color: #080808;
+        background-color: #fffbfb;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 17px;
+        overflow: hidden;
+        visibility: visible;
+    }
+    
+    /*creating animation effect*/
+    .button2:hover {
+        color: #111;
+        background: #1453ff;
+        box-shadow: 0 0 50px #1453ff;
+    }
+
+    .glow2{
+        list-style: none;
+        justify-content: center;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding-bottom: 15px ;
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .con2{
+        padding-top:20px;
+        text-align: center;
+        padding-bottom:30px;
+    }
+    
+    
+    .con4{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .space{
+        margin-bottom: 40px;
+        
+    }
+  }
